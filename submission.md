@@ -11,3 +11,7 @@
 
 ##### commit & push 4
 #####   เพิ่ม paddingTOP paddingBottom paddingHorizontal ในไฟล์ ZipCodeScreen.js
+
+##### commit & push 5
+#####    แก้ไขไฟล์ Weather.js นำImagebackground ออกมาอยู่ข้างนอก เพิ่ม styles 
+#####    แก้ไขไฟล์ Forcast.js ตกแต่งเพิ่มเติม ทำตัวอักษรเอียง
