@@ -16,8 +16,10 @@
 #####    แก้ไขไฟล์ Weather.js นำImagebackground ออกมาอยู่ข้างนอก เพิ่ม styles 
 #####    แก้ไขไฟล์ Forcast.js ตกแต่งเพิ่มเติม ทำตัวอักษรเอียง
 
-![Home] :(https://github.com/Tanakorn13/lab-3sa04-react_native/blob/main/Home.png)
+![Home] 
+[Home]:(https://github.com/Tanakorn13/lab-3sa04-react_native/blob/main/Home.png)
 
 
 
-![Weather] :(https://github.com/Tanakorn13/lab-3sa04-react_native/blob/main/Weather.png)
+![Weather] 
+[Weather]:(https://github.com/Tanakorn13/lab-3sa04-react_native/blob/main/Weather.png)
