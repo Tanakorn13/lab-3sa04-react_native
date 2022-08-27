@@ -1,5 +1,6 @@
 import React from 'react';
-import { FlatList } from 'react-native-web';
+import { View, Text, FlatList, StatusBar, StyleSheet, TouchableHighlight } from "react-native";
+import {useNavigation} from '@react-navigation/native'
 
 const availableZipItems = [
     { place: 'Hatyai', code: '90110' },
@@ -10,11 +11,14 @@ const availableZipItems = [
 ]
 
 const ZipItem = ({place, code, navigation}) => (
-    <View>
-        <Text>{place}</Text>
-        <Text>{code}</Text>
-    </View>
-    )
+    <TouchableHighlight onPress={() => navigation.navigate('Weather', { zipCode: code})}>
+        <View style={styles.zipItem}>
+            <Text>{place}</Text>
+            <Text >{code}</Text>
+        </View>
+    </TouchableHighlight>
+)
+   
 
 const _keyExtractor = item => item.code
 
@@ -32,3 +36,17 @@ export default function ZipCodeScreen(){
     );
    
 }
+
+const styles = StyleSheet.create({
+    zipItem: {
+        flex: 1,
+        flexDirection: 'row',
+        justifyContent: 'space-between'
+    },
+    zipPlace: {
+        flex: 1,
+    },
+    zipCode: {
+        flex: 1,
+    }
+})
