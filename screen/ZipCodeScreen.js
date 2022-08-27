@@ -16,7 +16,7 @@ const availableZipItems = [
 ]
 
 const ZipItem = ({place, code, navigation}) => (
-    <TouchableHighlight onPress={() => navigation.navigate('Weather', { zipCode: code})}>
+    <TouchableHighlight style={{backgroundColor:'rgba(210, 210, 210, 0.5)'}} onPress={() => navigation.navigate('Weather', { zipCode: code})}>
         <View style={styles.zipItem}>
             <Text>{place}</Text>
             <Text >{code}</Text>
