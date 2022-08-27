@@ -46,7 +46,11 @@ const styles = StyleSheet.create({
     zipItem: {
         flex: 1,
         flexDirection: 'row',
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+        paddingTop: 15,
+        paddingBottom: 15,
+        paddingHorizontal: 15
+
     },
     zipPlace: {
         flex: 1,

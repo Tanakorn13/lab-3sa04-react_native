@@ -8,3 +8,6 @@
 
 ##### commit & push 3
 #####   เพิ่มสีของพื้นหลังให้กับหน้า Home
+
+##### commit & push 4
+#####   เพิ่ม paddingTOP paddingBottom paddingHorizontal ในไฟล์ ZipCodeScreen.js
