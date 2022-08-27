@@ -29,25 +29,24 @@ export default function Weather(props) {
         }, [props.zipCode])
        
 
-    return (
-        <View>
-            <ImageBackground source={require('../bg3.jpg')} style={styles.backdrop} >
-                <Text>Zip Code is {props.zipCode}.</Text>
-                <Forecast {...forecastInfo} />
-            </ImageBackground>
-        </View>
- );
+        return (
+            <View>
+                <ImageBackground source={require('../bg3.jpg')} style={styles.backdrop} >
+                    <Text>Zip Code is {props.zipCode}.</Text>
+                    <Forecast {...forecastInfo} />
+                </ImageBackground>
+            </View>
+     );
 }
 
 const styles = StyleSheet.create({
     backdrop: {
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        width: '100%',
-        height: '100%',
-        fontSize: '12',
-        
+        width: "100%",
+        height: "100%",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+                
     },
 });
    
